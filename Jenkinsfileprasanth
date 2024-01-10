@@ -20,10 +20,12 @@ sh " $mavenHome/bin/mvn clean package "
 stage('sonarQubeReport'){
 sh "$mavenHome/bin/mvn sonar:sonar"
 }
+/*
 //upload artifact into artifactory report
 stage ('uploadartifactintonexus'){
 sh "$mavenHome/bin/mvn deploy"
 }
+*/
 //deploy app into tomcat seerver
 stage('DeployAppIntoTomcat'){
 sshagent(['be84c473-8301-4a5f-98c4-d5436af982fa']) {
