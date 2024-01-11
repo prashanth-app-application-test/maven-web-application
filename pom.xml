@@ -84,14 +84,13 @@
 		</dependency>
 		
 		<!-- provided dependencies -->
-<!--
+
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
 			<version>3.1.0</version>
 			<scope>provided</scope>
 		</dependency>
--->		
 	</dependencies>
 	
 	<distributionManagement>
@@ -99,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://35.154.191.251:8081/repository/facebook-release/</url>
+	      <url>http://3.108.249.5:8081/repository/declarative-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://35.154.191.251:8081/repository/facebook-snapshot/</url>
+	      <url>http://3.108.249.5:8081/repository/declarative-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
